@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "edab1c66-54f9-476d-b812-1ee739e5f9ea",
+    "Name": "UsrRinda",
+    "Type": 1,
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/UsrRinda.csproj",
+    "DependsOn": []
+  }
+}
