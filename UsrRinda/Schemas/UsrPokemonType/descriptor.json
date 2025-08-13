@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "80b2eee9-1b3f-42dc-af48-dbc6e3e4b09b",
+    "Name": "UsrPokemonType",
+    "ModifiedOnUtc": "\/Date(1755026510000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Pokemon Type",
+    "DependsOn": []
+  }
+}
