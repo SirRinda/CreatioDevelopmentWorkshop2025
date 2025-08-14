@@ -1,0 +1,177 @@
+= MetaData.Schema.UId "761dfb89-5734-4a4b-acaf-ae78a74a17ca"
+= MetaData.Schema.A2 "UsrPokemon"
+= MetaData.Schema.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
+= MetaData.Schema.B6 "edab1c66-54f9-476d-b812-1ee739e5f9ea"
+= MetaData.Schema.EG1.UId "35ed072d-b64b-48d9-a321-be185b27409b"
+= MetaData.Schema.EG1.A2 "UsrPokemonEventsProcess"
+= MetaData.Schema.EG1.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
+= MetaData.Schema.EG1.B1 []
+= MetaData.Schema.EG1.B3 []
++ MetaData.Schema.EG1.B8 "0.0.0.0"
+= MetaData.Schema.EG1.FJ1 []
+= MetaData.Schema.EG1.BK37.A3 "bb4d6607-026b-4b27-b640-8f5c77c1e89d"
+= MetaData.Schema.EG1.BK37.A4 "bb4d6607-026b-4b27-b640-8f5c77c1e89d"
+= MetaData.Schema.EG1.BK3 []
+= MetaData.Schema.EG1.BK4 []
+= MetaData.Schema.D8 "1bab9dcf-17d5-49f8-9536-8e0064f1dce0"
++ MetaData.Schema.D29 "null"
++ MetaData.Schema.D30 "null"
++ MetaData.Schema.D31 "null"
++ MetaData.Schema.D4 "2f871818-239b-4a36-82d1-03316c3d1313"
++ MetaData.Schema.D2 {
+  "UId": "2f871818-239b-4a36-82d1-03316c3d1313",
+  "A2": "UsrName",
+  "A3": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A4": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A5": "6f71e54c-1960-40c9-94f6-073fd67699ab",
+  "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
+  "E2": 1
+}
++ MetaData.Schema.D2 {
+  "UId": "c084a3b7-6c02-ffd1-97ec-9a11a869d3a5",
+  "A2": "UsrStatus",
+  "A3": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A4": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A5": "1e042ff4-0f21-4140-97be-445562d3548a",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "9315da1f-37da-4f42-8158-3305f9ea18fa",
+  "E2": 1,
+  "E6": true,
+  "E20": true,
+  "E12": {
+    "FB1": 1,
+    "FB2": "4186e76c-def1-465f-9d16-a9b75e334a36"
+  },
+  "E17": "UsrStatusId",
+  "E18": "UsrStatusName"
+}
++ MetaData.Schema.D2 {
+  "UId": "c6e21baa-8a8f-0440-6504-2e6ce0c749ae",
+  "A2": "UsrBattleType",
+  "A3": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A4": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A5": "1e042ff4-0f21-4140-97be-445562d3548a",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "dfd02f0d-cb44-4a40-a9ee-c79318396578",
+  "E2": 1,
+  "E6": true,
+  "E20": true,
+  "E12": {
+    "FB1": 1,
+    "FB2": "5735fafe-397b-4cbe-b814-47d86fa558f2"
+  },
+  "E17": "UsrBattleTypeId",
+  "E18": "UsrBattleTypeName"
+}
++ MetaData.Schema.D2 {
+  "UId": "dc4ef92c-855a-e3a6-3d83-ad8c7ed91477",
+  "A2": "UsrPrice",
+  "A3": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A4": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A5": "1e042ff4-0f21-4140-97be-445562d3548a",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6",
+  "E2": 1
+}
++ MetaData.Schema.D2 {
+  "UId": "3b28ed2e-096b-4683-6165-581d2c729063",
+  "A2": "UsrPokedexDescription",
+  "A3": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A4": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A5": "1e042ff4-0f21-4140-97be-445562d3548a",
+  "S2": "79bccffa-8c8b-4863-b376-a69d2244182b",
+  "E25": true
+}
++ MetaData.Schema.D2 {
+  "UId": "91ef178a-86a8-bca9-0a32-a3340680e459",
+  "A2": "UsrOwner",
+  "A3": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A4": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A5": "1e042ff4-0f21-4140-97be-445562d3548a",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+  "E6": true,
+  "E12": {
+    "FB1": 3,
+    "FB2": "4f367ca9-549b-4a1a-b64e-a40123f52ac0"
+  },
+  "E17": "UsrOwnerId",
+  "E18": "UsrOwnerName"
+}
++ MetaData.Schema.D2 {
+  "UId": "c709c61e-2017-8ff3-80df-9617c06ab67e",
+  "A2": "UsrTrainer",
+  "A3": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A4": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A5": "1e042ff4-0f21-4140-97be-445562d3548a",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+  "E2": 1,
+  "E6": true,
+  "E17": "UsrTrainerId",
+  "E18": "UsrTrainerName"
+}
++ MetaData.Schema.D2 {
+  "UId": "e1df1a0f-e40c-e393-5d19-9f1ce31d6ee6",
+  "A2": "UsrBattleCount",
+  "A3": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A4": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A5": "1e042ff4-0f21-4140-97be-445562d3548a",
+  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0",
+  "E12": {
+    "FB1": 1,
+    "FB2": "0"
+  }
+}
++ MetaData.Schema.D2 {
+  "UId": "483c0ea7-436f-897d-b242-4e9be1faa4e6",
+  "A2": "UsrWeight",
+  "A3": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A4": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A5": "1e042ff4-0f21-4140-97be-445562d3548a",
+  "S2": "07ba84ce-0bf7-44b4-9f2c-7b15032eb98c"
+}
++ MetaData.Schema.D2 {
+  "UId": "651a5578-f577-100c-903c-6d6ddeed33e0",
+  "A2": "UsrHeight",
+  "A3": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A4": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A5": "1e042ff4-0f21-4140-97be-445562d3548a",
+  "S2": "07ba84ce-0bf7-44b4-9f2c-7b15032eb98c"
+}
++ MetaData.Schema.D2 {
+  "UId": "8559fe40-961c-89ca-52d7-e98099a26974",
+  "A2": "UsrRegnumber",
+  "A3": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A4": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A5": "1e042ff4-0f21-4140-97be-445562d3548a",
+  "S2": "325a73b8-0f47-44a0-8412-7606f78003ac",
+  "E5": false,
+  "E12": {
+    "FB1": 4,
+    "FB4": "P-",
+    "FB5": 3
+  }
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","2f871818-239b-4a36-82d1-03316c3d1313","c084a3b7-6c02-ffd1-97ec-9a11a869d3a5","c6e21baa-8a8f-0440-6504-2e6ce0c749ae","dc4ef92c-855a-e3a6-3d83-ad8c7ed91477","3b28ed2e-096b-4683-6165-581d2c729063","91ef178a-86a8-bca9-0a32-a3340680e459","c709c61e-2017-8ff3-80df-9617c06ab67e","e1df1a0f-e40c-e393-5d19-9f1ce31d6ee6","483c0ea7-436f-897d-b242-4e9be1faa4e6","651a5578-f577-100c-903c-6d6ddeed33e0","8559fe40-961c-89ca-52d7-e98099a26974"]
+= MetaData.Schema.D20.A2 "UsrPokemonEvents"
+= MetaData.Schema.D36.A3 "761dfb89-5734-4a4b-acaf-ae78a74a17ca"
+= MetaData.Schema.D36.BS1 false
+- MetaData.Schema.EG1.B6
+- MetaData.Schema.EG1.BK29
+- MetaData.Schema.EG1.BK30
+- MetaData.Schema.D1
+- MetaData.Schema.D20.A5
+- MetaData.Schema.D20.FA4
+- MetaData.Schema.D20.FA5
+- MetaData.Schema.D20.FA6
+- MetaData.Schema.D20.FA7
+- MetaData.Schema.D20.FA11
+- MetaData.Schema.D20.FA12
+- MetaData.Schema.D20.FA15
++ MetaData.Schema.B7 false
++ MetaData.Schema.D2.["ae0e45ca-c495-4fe7-a39d-3ab7278e1617"].E16 false
++ MetaData.Schema.D2.["e80190a5-03b2-4095-90f7-a193a960adee"].E16 false
++ MetaData.Schema.D2.["ebf6bb93-8aa6-4a01-900d-c6ea67affe21"].E16 false
++ MetaData.Schema.D2.["9928edec-4272-425a-93bb-48743fee4b04"].E16 false
++ MetaData.Schema.D2.["3015559e-cbc6-406a-88af-07f7930be832"].E16 false
++ MetaData.Schema.D2.["3fabd836-6a53-4d8d-9069-6df88d9dae1e"].E16 false

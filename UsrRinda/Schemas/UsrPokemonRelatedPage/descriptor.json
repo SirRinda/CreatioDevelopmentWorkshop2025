@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "2e6af54c-f5ef-43ce-8159-947cadda32aa",
+    "Name": "UsrPokemonRelatedPage",
+    "ModifiedOnUtc": "\/Date(1755179784000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Pokemon (Page settings)",
+    "DependsOn": []
+  }
+}

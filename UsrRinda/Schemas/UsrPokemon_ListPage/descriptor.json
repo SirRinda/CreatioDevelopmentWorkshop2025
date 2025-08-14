@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "17a996cc-a250-443d-bd45-ccea07d5fa34",
+    "Name": "UsrPokemon_ListPage",
+    "ModifiedOnUtc": "\/Date(1755201578000)\/",
+    "Parent": {
+      "UId": "b7b898d0-8c77-4953-c097-23fa6800da02",
+      "Name": "ListPageV3Template"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Pokemon list page"
+  }
+}

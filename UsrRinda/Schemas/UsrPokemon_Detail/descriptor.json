@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "af0bfc5e-b5b0-4d21-94cc-0597ba240be3",
+    "Name": "UsrPokemon_Detail",
+    "ModifiedOnUtc": "\/Date(1755179784000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Pokemon detail",
+    "DependsOn": []
+  }
+}

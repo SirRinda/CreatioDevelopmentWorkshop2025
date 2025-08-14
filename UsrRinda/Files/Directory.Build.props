@@ -1,5 +1,9 @@
 <Project>
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/UsrRinda/Schemas/UsrPokemon/UsrPokemon.cs" Condition="Exists('$(PkgPath)/UsrRinda/Schemas/UsrPokemon/UsrPokemon.cs')" />
+		<Compile Include="$(PkgPath)/UsrRinda/Schemas/UsrPokemonBattleType/UsrPokemonBattleType.cs" Condition="Exists('$(PkgPath)/UsrRinda/Schemas/UsrPokemonBattleType/UsrPokemonBattleType.cs')" />
+		<Compile Include="$(PkgPath)/UsrRinda/Schemas/UsrPokemonStatus/UsrPokemonStatus.cs" Condition="Exists('$(PkgPath)/UsrRinda/Schemas/UsrPokemonStatus/UsrPokemonStatus.cs')" />
 		<Compile Include="$(PkgPath)/UsrRinda/Schemas/UsrPokemonType/UsrPokemonType.cs" Condition="Exists('$(PkgPath)/UsrRinda/Schemas/UsrPokemonType/UsrPokemonType.cs')" />
+		<Compile Include="$(PkgPath)/UsrRinda/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs" Condition="Exists('$(PkgPath)/UsrRinda/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs')" />
 	</ItemGroup>
 </Project>

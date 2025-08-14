@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "2049dcb1-f83a-e7f3-cf5d-75e6b6eac147",
+    "Name": "DeleteBOBOType",
+    "DBEngineType": 0,
+    "InstallType": 2,
+    "ModifiedOnUtc": "\/Date(1755115464000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}

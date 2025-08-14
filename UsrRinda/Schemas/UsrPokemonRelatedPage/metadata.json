@@ -1,0 +1,28 @@
+{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "2e6af54c-f5ef-43ce-8159-947cadda32aa",
+      "A2": "UsrPokemonRelatedPage",
+      "A5": "6f71e54c-1960-40c9-94f6-073fd67699ab",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2",
+      "B8": "0.0.0.0",
+      "AD1": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+      "AD2": "EntitySchemaManager",
+      "AD3": "RelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+        "Pages": [
+          {
+            "UId": "8233c79a-7394-4cd6-993e-b1676d2320c2",
+            "PageSchemaUId": "4bd54be4-f780-4567-94af-c4068d7950ea",
+            "IsDefault": true
+          }
+        ]
+      }
+    }
+  }
+}
