@@ -5,6 +5,8 @@
 			<Item Name="Caption" Value="Pokemon" />
 			<Item Name="Columns.UsrBattleCount.Caption" Value="Battle Count" />
 			<Item Name="Columns.UsrBattleType.Caption" Value="Battle Type" />
+			<Item Name="Columns.UsrCity.Caption" Value="City" />
+			<Item Name="Columns.UsrCountry.Caption" Value="Country" />
 			<Item Name="Columns.UsrHeight.Caption" Value="Height, m" />
 			<Item Name="Columns.UsrName.Caption" Value="Name" />
 			<Item Name="Columns.UsrOwner.Caption" Value="Owner" />
@@ -12,6 +14,7 @@
 			<Item Name="Columns.UsrPrice.Caption" Value="Price per Day, EUR" />
 			<Item Name="Columns.UsrRegnumber.Caption" Value="Reg number" />
 			<Item Name="Columns.UsrStatus.Caption" Value="Status" />
+			<Item Name="Columns.UsrTicketPrice.Caption" Value="Ticket Price, EUR" />
 			<Item Name="Columns.UsrTrainer.Caption" Value="Trainer" />
 			<Item Name="Columns.UsrWeight.Caption" Value="Weight, Kg" />
 		</Items>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.161e0ea3-baae-d38f-5fe3-2d6d2f93788a.Caption" Value="Show elements: Ticket Price, EUR" />
+			<Item Name="AddonConfig.Rules.4176f9d9-e21c-9ff8-2d3e-740274b35e2a.Caption" Value="Hide elements: Additional Data" />
+			<Item Name="Caption" Value="Pokemon form page (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

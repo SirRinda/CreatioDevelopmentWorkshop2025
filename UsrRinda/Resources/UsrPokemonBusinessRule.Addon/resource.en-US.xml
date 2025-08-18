@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.0d375e9e-ef3b-386b-403e-8d0aa840dae3.Caption" Value="ChildRule-ebe87caa-688d-b68f-fac8-bdeda3664c6c-ClearValue" />
+			<Item Name="AddonConfig.Rules.76b0822b-ba4c-4d5c-7619-07525772ec37.Caption" Value="ChildRule-ebe87caa-688d-b68f-fac8-bdeda3664c6c-PopulateValue" />
+			<Item Name="AddonConfig.Rules.c62a993c-c72c-1117-6b97-289a38c7775a.Caption" Value="Apply static filter: Owner" />
+			<Item Name="AddonConfig.Rules.ebe87caa-688d-b68f-fac8-bdeda3664c6c.Caption" Value="Apply filter: City" />
+			<Item Name="Caption" Value="Pokemon (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

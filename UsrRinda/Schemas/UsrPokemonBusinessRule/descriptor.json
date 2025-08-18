@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "a8a7f402-e10f-407f-a7c0-ee81103741b5",
+    "Name": "UsrPokemonBusinessRule",
+    "ModifiedOnUtc": "\/Date(1755288264000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Pokemon (Business rules)",
+    "DependsOn": []
+  }
+}

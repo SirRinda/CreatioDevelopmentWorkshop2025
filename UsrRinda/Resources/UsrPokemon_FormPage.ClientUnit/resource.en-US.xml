@@ -3,10 +3,14 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Pokemon form page" />
+			<Item Name="LocalizableStrings.AdditionalDataContainer_caption.Value" Value="Additional Data" />
 			<Item Name="LocalizableStrings.addRecord_8ew0si3_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_988nr2j_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_hx4zs0u_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_o83elre_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_ojwe6r1_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_tznjeeh_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.CatchMeBtn_caption.Value" Value="Catch me!" />
 		</Items>
 	</Group>
 </Resources>

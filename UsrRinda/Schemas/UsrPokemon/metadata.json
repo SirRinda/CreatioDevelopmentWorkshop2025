@@ -56,10 +56,6 @@
   "E2": 1,
   "E6": true,
   "E20": true,
-  "E12": {
-    "FB1": 1,
-    "FB2": "5735fafe-397b-4cbe-b814-47d86fa558f2"
-  },
   "E17": "UsrBattleTypeId",
   "E18": "UsrBattleTypeName"
 }
@@ -152,7 +148,41 @@
     "FB5": 3
   }
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","2f871818-239b-4a36-82d1-03316c3d1313","c084a3b7-6c02-ffd1-97ec-9a11a869d3a5","c6e21baa-8a8f-0440-6504-2e6ce0c749ae","dc4ef92c-855a-e3a6-3d83-ad8c7ed91477","3b28ed2e-096b-4683-6165-581d2c729063","91ef178a-86a8-bca9-0a32-a3340680e459","c709c61e-2017-8ff3-80df-9617c06ab67e","e1df1a0f-e40c-e393-5d19-9f1ce31d6ee6","483c0ea7-436f-897d-b242-4e9be1faa4e6","651a5578-f577-100c-903c-6d6ddeed33e0","8559fe40-961c-89ca-52d7-e98099a26974"]
++ MetaData.Schema.D2 {
+  "UId": "5af6e249-ce53-7989-620e-d4ccb25b1f94",
+  "A2": "UsrCity",
+  "A3": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A4": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A5": "1e042ff4-0f21-4140-97be-445562d3548a",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "5ca90b6a-93e7-4448-befe-ab5166ec2cfe",
+  "E6": true,
+  "E20": true,
+  "E17": "UsrCityId",
+  "E18": "UsrCityName"
+}
++ MetaData.Schema.D2 {
+  "UId": "a77a08a0-74bb-d296-65f1-caa5877a7828",
+  "A2": "UsrCountry",
+  "A3": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A4": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A5": "1e042ff4-0f21-4140-97be-445562d3548a",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "09fce1f8-515c-4296-95cd-8cd93f79a6cf",
+  "E6": true,
+  "E20": true,
+  "E17": "UsrCountryId",
+  "E18": "UsrCountryName"
+}
++ MetaData.Schema.D2 {
+  "UId": "00defc30-5244-460d-09b8-40601a60e09d",
+  "A2": "UsrTicketPrice",
+  "A3": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A4": "761dfb89-5734-4a4b-acaf-ae78a74a17ca",
+  "A5": "1e042ff4-0f21-4140-97be-445562d3548a",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
+~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","2f871818-239b-4a36-82d1-03316c3d1313","c084a3b7-6c02-ffd1-97ec-9a11a869d3a5","c6e21baa-8a8f-0440-6504-2e6ce0c749ae","dc4ef92c-855a-e3a6-3d83-ad8c7ed91477","3b28ed2e-096b-4683-6165-581d2c729063","91ef178a-86a8-bca9-0a32-a3340680e459","c709c61e-2017-8ff3-80df-9617c06ab67e","e1df1a0f-e40c-e393-5d19-9f1ce31d6ee6","483c0ea7-436f-897d-b242-4e9be1faa4e6","651a5578-f577-100c-903c-6d6ddeed33e0","8559fe40-961c-89ca-52d7-e98099a26974","5af6e249-ce53-7989-620e-d4ccb25b1f94","a77a08a0-74bb-d296-65f1-caa5877a7828","00defc30-5244-460d-09b8-40601a60e09d"]
 = MetaData.Schema.D20.A2 "UsrPokemonEvents"
 = MetaData.Schema.D36.A3 "761dfb89-5734-4a4b-acaf-ae78a74a17ca"
 = MetaData.Schema.D36.BS1 false
