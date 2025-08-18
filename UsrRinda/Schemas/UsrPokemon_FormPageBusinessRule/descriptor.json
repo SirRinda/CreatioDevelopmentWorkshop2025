@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "a5008268-0dfd-4085-8878-ba2bf449b1ef",
     "Name": "UsrPokemon_FormPageBusinessRule",
-    "ModifiedOnUtc": "\/Date(1755528054000)\/",
+    "ModifiedOnUtc": "\/Date(1755544837000)\/",
     "ManagerName": "AddonSchemaManager",
     "Caption": "Pokemon form page (Business rules)",
     "DependsOn": []

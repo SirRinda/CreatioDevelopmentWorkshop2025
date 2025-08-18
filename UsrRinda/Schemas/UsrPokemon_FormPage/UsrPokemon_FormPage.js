@@ -149,12 +149,39 @@ define("UsrPokemon_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 			},
 			{
 				"operation": "insert",
-				"name": "Country",
+				"name": "PokemonOwner",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
 						"row": 4,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_UsrOwner_ab7bcti",
+					"labelPosition": "auto",
+					"control": "$PDS_UsrOwner_ab7bcti",
+					"listActions": [],
+					"showValueAsLink": false,
+					"controlActions": [],
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"tooltip": "",
+					"valueDetails": null
+				},
+				"parentName": "SideAreaProfileContainer",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "Country",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 5,
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
@@ -172,7 +199,7 @@ define("UsrPokemon_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 				},
 				"parentName": "SideAreaProfileContainer",
 				"propertyName": "items",
-				"index": 3
+				"index": 4
 			},
 			{
 				"operation": "insert",
@@ -181,7 +208,7 @@ define("UsrPokemon_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
-						"row": 5,
+						"row": 6,
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
@@ -199,7 +226,7 @@ define("UsrPokemon_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 				},
 				"parentName": "SideAreaProfileContainer",
 				"propertyName": "items",
-				"index": 4
+				"index": 5
 			},
 			{
 				"operation": "insert",
@@ -322,7 +349,7 @@ define("UsrPokemon_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 			},
 			{
 				"operation": "insert",
-				"name": "PokemonOwner",
+				"name": "TrainerEmail",
 				"values": {
 					"layoutConfig": {
 						"column": 2,
@@ -330,18 +357,15 @@ define("UsrPokemon_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 						"row": 3,
 						"rowSpan": 1
 					},
-					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.PDS_UsrOwner_ab7bcti",
+					"type": "crt.EmailInput",
+					"label": "#ResourceString(TrainerEmail_label)#",
+					"control": "$PDS_UsrTrainerEmail_lhirdfr",
 					"labelPosition": "auto",
-					"control": "$PDS_UsrOwner_ab7bcti",
-					"listActions": [],
-					"showValueAsLink": false,
-					"controlActions": [],
-					"visible": true,
-					"readonly": false,
 					"placeholder": "",
 					"tooltip": "",
-					"valueDetails": null
+					"needHandleSave": false,
+					"caption": "#ResourceString(TrainerEmail_caption)#",
+					"readonly": true
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -386,7 +410,7 @@ define("UsrPokemon_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 						"entitySchemaName": "SysFile",
 						"recordColumnName": "RecordId"
 					},
-					"visible": false,
+					"visible": true,
 					"readonly": false,
 					"placeholder": "",
 					"tooltip": "",
@@ -530,6 +554,11 @@ define("UsrPokemon_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 						"modelConfig": {
 							"path": "PDS.UsrTicketPrice"
 						}
+					},
+					"PDS_UsrTrainerEmail_lhirdfr": {
+						"modelConfig": {
+							"path": "PDS.UsrTrainerEmail_lhirdfr"
+						}
 					}
 				}
 			},
@@ -562,7 +591,13 @@ define("UsrPokemon_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 					"PDS": {
 						"type": "crt.EntityDataSource",
 						"config": {
-							"entitySchemaName": "UsrPokemon"
+							"entitySchemaName": "UsrPokemon",
+							"attributes": {
+								"UsrTrainerEmail_lhirdfr": {
+									"path": "UsrTrainer.Email",
+									"type": "ForwardReference"
+								}
+							}
 						},
 						"scope": "page"
 					}
@@ -581,8 +616,23 @@ define("UsrPokemon_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 					request.$context.PDS_UsrPokedexDescription_by9hzyb = "Pokemon catched!";
 					/* Call the next handler if it exists and return its result. */
 					return next?.handle(request);
+				},
+				request: "crt.HandleViewModelAttributeChangeRequest",
+				/* The custom implementation of the system query handler. */
+				handler: async (request, next) => {
+      				if (request.attributeName === 'PDS_UsrPrice_g3lfqsy' || 		        // if price changed
+					   request.attributeName === 'PDS_UsrBattleCount_bafj4g8' ) { 		// or Passenger count changed
+						//debugger;
+						let price = await request.$context.PDS_UsrPrice_g3lfqsy;
+						let passengers = await request.$context.PDS_UsrBattleCount_bafj4g8;
+						let GMP = 0.08;
+						let rental_price = price*(1+(passengers *GMP)) ;
+						request.$context.PDS_UsrTicketPrice_camzwge = rental_price;
+					}
+					/* Call the next handler if it exists and return its result. */
+					return next?.handle(request);
 				}
-			}
+			},
 		]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
 		validators: /**SCHEMA_VALIDATORS*/{}/**SCHEMA_VALIDATORS*/
