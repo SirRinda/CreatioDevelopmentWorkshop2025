@@ -75,7 +75,21 @@ define("UsrPokemon_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 							"dataValueType": 31,
 							"width": 135
 						}
-					]
+					],
+					"features": {
+						"rows": {
+							"selection": {
+								"enable": true,
+								"multiple": true
+							}
+						},
+						"editable": {
+							"enable": false,
+							"itemsCreation": false,
+							"floatingEditPanel": false
+						}
+					},
+					"visible": true
 				}
 			},
 			{

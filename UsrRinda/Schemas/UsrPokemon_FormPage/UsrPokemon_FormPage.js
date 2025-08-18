@@ -493,6 +493,15 @@ define("UsrPokemon_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 					"PDS_UsrPrice_g3lfqsy": {
 						"modelConfig": {
 							"path": "PDS.UsrPrice"
+						},
+						"validators": {
+							"MySuperValidator": {
+								"type": "usr.DGValidator",
+								"params": {
+									"minValue": 30,
+									"message": "#ResourceString(PriceCannotBeLess)#"
+								}
+							}
 						}
 					},
 					"PDS_UsrBattleType_890r98z": {
@@ -508,16 +517,43 @@ define("UsrPokemon_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 					"PDS_UsrHeight_p3nfbbv": {
 						"modelConfig": {
 							"path": "PDS.UsrHeight"
+						},
+						"validators": {
+							"MySuperValidator": {
+								"type": "usr.DGValidator",
+								"params": {
+									"minValue": 0.5,
+									"message": "#ResourceString(HightCannotBeLess)#"
+								}
+							}
 						}
 					},
 					"PDS_UsrWeight_9i1amr3": {
 						"modelConfig": {
 							"path": "PDS.UsrWeight"
+						},
+						"validators": {
+							"MySuperValidator": {
+								"type": "usr.DGValidator",
+								"params": {
+									"minValue": 0.1,
+									"message": "#ResourceString(WeightCannotBeLess)#"
+								}
+							}
 						}
 					},
 					"PDS_UsrBattleCount_bafj4g8": {
 						"modelConfig": {
 							"path": "PDS.UsrBattleCount"
+						},
+						"validators": {
+							"MySuperValidator": {
+								"type": "usr.DGValidator",
+								"params": {
+									"minValue": 1,
+									"message": "#ResourceString(BattleCountCannotBeLess)#"
+								}
+							}
 						}
 					},
 					"PDS_UsrTrainer_jtohn8l": {
@@ -553,7 +589,7 @@ define("UsrPokemon_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 					"PDS_UsrTicketPrice_camzwge": {
 						"modelConfig": {
 							"path": "PDS.UsrTicketPrice"
-						}
+						},
 					},
 					"PDS_UsrTrainerEmail_lhirdfr": {
 						"modelConfig": {
@@ -635,6 +671,38 @@ define("UsrPokemon_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 			},
 		]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
-		validators: /**SCHEMA_VALIDATORS*/{}/**SCHEMA_VALIDATORS*/
+		validators: /**SCHEMA_VALIDATORS*/{
+			/* The validator type must contain a vendor prefix.
+			Format the validator type in PascalCase. */
+			"usr.DGValidator": {
+				validator: function (config) {
+					return function (control) {
+						let value = control.value;
+						let minValue = config.minValue;
+						let valueIsCorrect = (value >= minValue);
+						var result;
+						if (valueIsCorrect) {
+							result = null;
+						} else {
+							result = {
+								"usr.DGValidator": { 
+									message: config.message
+								}
+							};
+						}
+						return result;
+					};
+				},
+				params: [
+					{
+						name: "minValue"
+					},
+					{
+						name: "message"
+					}
+				],
+				async: false
+			}
+		}/**SCHEMA_VALIDATORS*/
 	};
 });

@@ -10,11 +10,15 @@
 			<Item Name="LocalizableStrings.addRecord_o83elre_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_ojwe6r1_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_tznjeeh_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.BattleCountCannotBeLess.Value" Value="Battle count cannot be less then 1" />
 			<Item Name="LocalizableStrings.CatchMeBtn_caption.Value" Value="Catch me!" />
 			<Item Name="LocalizableStrings.EmailInput_ezz8ue5_label.Value" Value="Email address" />
 			<Item Name="LocalizableStrings.EmailInput_p5q27r9_label.Value" Value="Email address" />
+			<Item Name="LocalizableStrings.HightCannotBeLess.Value" Value="Hight cannot be less than 0.5 m" />
+			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 30.0 EUR" />
 			<Item Name="LocalizableStrings.TrainerEmail_caption.Value" Value="Email address" />
 			<Item Name="LocalizableStrings.TrainerEmail_label.Value" Value="Trainer Email" />
+			<Item Name="LocalizableStrings.WeightCannotBeLess.Value" Value="Weight cannot be less than 0.1 Kg" />
 		</Items>
 	</Group>
 </Resources>
